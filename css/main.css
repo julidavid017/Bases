@@ -1,0 +1,148 @@
+* {
+	margin: 0; padding: 0;
+}
+
+body {
+	background: #2f2f2f;
+}
+
+header{
+	margin: 20px auto 0 auto;
+	border-radius: 10px 10px 0 0;
+	color: #3a7999;
+}
+
+header, footer{
+	background: #f2f2f2;
+	width: 900px;
+	padding: 10px 0;
+	text-align: center;
+	
+}
+
+article{
+	background: #3a7999;
+	width: 900px;
+	margin: 0 auto;
+}
+
+article img{
+	width: 300px;
+	position: relative;
+	left: 300px;
+}
+
+nav ul{
+	width: 600px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 5px;
+	padding: 10px 20px;
+	width: 248px;
+	text-align: center;
+	background: #f2f2f2;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #3a7999;
+}
+
+div#botones{
+	width: 280px;
+	margin: 0 auto;
+}
+
+div#botones button{
+	border: none;
+	background: #2f2f2f;
+	color: #f2f2f2;
+	padding: 10px;
+	width: 100px;
+	margin: 10px 20px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+}
+
+div#botones button:hover {
+	background: rgba(255,255,255,255);
+	color: #2f2f2f;
+	box-shadow: inset 0 0 0 3px #2f2f2f;
+}
+
+form {
+	width: 600px;
+	background: ;
+	position: relative;
+	left: 150px;
+}
+
+form input {
+	width: 266px;
+	padding: 10px;
+	margin: 5px;
+}
+
+form span input {
+	width: 266px;
+	padding: 10px;
+	margin: 5px;
+}
+
+form input#btn{
+	border: none;
+	background: #2f2f2f;
+	color: #f2f2f2;
+	padding: 10px;
+	width: 236px;
+	margin: 10px 20px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+}
+
+form input#btn:hover{
+	background: rgba(255,255,255,255);
+	color: #2f2f2f;
+	box-shadow: inset 0 0 0 3px #2f2f2f;
+}
+
+#con_resul table{
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	
+}
+
+#con_resul table tr{
+	background: #f2f2f2;
+}
+
+#con_resul table tr td{
+	width: 100px;
+	padding: 5px 2px;
+	border: 1px solid #2f2f2f;
+}
+
+#con_resul table tr#cabecera{
+	font-weight: bold;
+	background: #2f2f2f;
+	color: #f2f2f2;
+}
+
+footer{
+	margin: 0 auto;
+	border-radius: 0 0 10px 10px;
+	color: #3a7999;
+}
